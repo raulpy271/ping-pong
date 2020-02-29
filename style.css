@@ -1,0 +1,21 @@
+body {
+  display: inline;
+}
+
+.canvas, .score {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: baseline;
+}
+
+#canvas {
+  box-shadow: 0 0px 7px 2px #000;
+
+}
+#score {
+  font-size: 30pt;
+  font-family: monospace;
+  color: white;
+  background-color: black; 
+}
