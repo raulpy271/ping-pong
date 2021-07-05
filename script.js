@@ -239,7 +239,7 @@ function startgame(){
   setInterval(updategame,30);
 
   window.addEventListener("keydown", function(key){
-    velocity = 25; 
+    velocity = 40; 
     keys = {up:38, down:40,w: 87, s: 83}
     if (key.keyCode == keys.up) {
       updateRacket(gameArea.tables[2], gameArea.tables[2].x, gameArea.tables[2].y - velocity);
