@@ -11,7 +11,7 @@ var gameArea = {
           table1 = new table(this.cv.width, 7, "black",  0, 0, [1,-1]),
           table2 = new table(this.cv.width, 7, "black",  0, this.cv.height-7, [1,-1]),
           racket1 = new table(15, 70, "blue", this.cv.width-20, this.center[1], [-1,1]),
-          racket2 = new table(15, 70, "red", 5, this.center[1],[-1, 1] )
+          racket2 = new table(15, 70, "blue", 5, this.center[1],[-1, 1] )
           
         ];
         this.balls = [];
